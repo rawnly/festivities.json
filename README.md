@@ -15,7 +15,7 @@ An example usage of this file can be
 
 **Installation**
 ```bash
-	npm install festivities.json --save
+	npm install festivities --save
 ```
 
 **Example**
