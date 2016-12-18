@@ -13,6 +13,12 @@ Example:
 ## Usage
 An example usage of this file can be
 
+**Installation**
+```bash
+	npm install festivities.json --save
+```
+
+**Example**
 ```javascript
   const festivities = require('../path/to/festivities');
 
