@@ -20,7 +20,7 @@ An example usage of this file can be
 
 **Example**
 ```javascript
-  const festivities = require('../path/to/festivities');
+  const festivities = require('festivities');
 
   // This will return
   // { "day": 25, "month": "December" }
