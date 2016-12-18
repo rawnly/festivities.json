@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn init
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.17.10
+
+Node version: 
+  6.9.2
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "festivities.json",
+    "version": "1.0.0",
+    "description": "A list of international main festivities",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Rawnly/festivities.json.git"
+    },
+    "keywords": [
+      "festivities",
+      "json"
+    ],
+    "author": "Federico Vitale",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Rawnly/festivities.json/issues"
+    },
+    "homepage": "https://github.com/Rawnly/festivities.json#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  TypeError: Cannot convert object to primitive value
+      at Object.<anonymous> (/usr/local/Cellar/yarn/0.17.10/libexec/lib/node_modules/yarn/lib/cli/commands/init.js:93:27)
+      at next (native)
+      at step (/usr/local/Cellar/yarn/0.17.10/libexec/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+      at /usr/local/Cellar/yarn/0.17.10/libexec/lib/node_modules/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13
+      at process._tickCallback (internal/process/next_tick.js:103:7)
