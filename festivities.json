@@ -18,5 +18,33 @@
   "halloween": {
     "day": 31,
     "month": "October"
+  },
+  "starwars_day": {
+    "day": 4,
+    "month": "May"
+  },
+  "earth_day": {
+    "day": 22,
+    "month": "April"
+  },
+  "chinese_new_year": {
+    "start": {
+      "day": 24,
+      "month": "January"
+    },
+    "end": {
+      "day": 3,
+      "month": "March",
+    }
+  },
+  "hanukkah": {
+    "start": {
+      "day": 24,
+      "month": "December"
+    },
+    "end": {
+      "day": 1,
+      "month": "January"
+    }
   }
 }
