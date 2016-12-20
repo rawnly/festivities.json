@@ -10,6 +10,22 @@ Example:
   }
 ```
 
+Multiday festivities:
+```json
+"hanukkah": {
+  "period": {
+    "start": {
+      "day": 24,
+      "month": "December"
+    },
+    "end": {
+      "day": 1,
+      "month": "January"
+    }
+  }
+}
+```
+
 ## Usage
 An example usage of this file can be
 
@@ -31,6 +47,22 @@ An example usage of this file can be
 
   // This will return `December`
   console.log( festivities.christmas.month );
+
+  // For multiday festivities
+  // in 2016 this will return 24
+  console.log( festivities.hanukkah.start.day );
+
+  // and that 1
+  console.log( festivities.hanukkah.end.day );
+
+  // Print full date
+
+  // abbreviation
+  var hanukkah = festivities.hanukkah;
+
+  // this will return "24 December"
+  console.log( `${hanukkah.start.day}/${hanukkah.start.month}`);
+
 ```
 
 ## Hack
@@ -41,3 +73,22 @@ You can also add other **festivities** doing the following steps:
 3. Commit your changes (git commit -am 'Added a new festivity')
 4. Push to the branch (git push origin my-new-festivity)
 5. Create a new Pull Request
+
+### Please follow the file structure.
+
+## Supported Festivities:
+
+- christmas
+- epifany
+- new_year
+- chinese_new_year
+- hanukkah
+- halloween
+- valentines
+- starwars_day
+- earth_day
+
+
+# TODO
+- [x] Add multiday festivities as requested in [#1](https://github.com/Rawnly/festivities.json/issues/1)
+- [ ] Write an pull guide.
