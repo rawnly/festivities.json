@@ -1,5 +1,7 @@
 # Festivities
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1436efa4eb3843319a903f4f1fb230ed)](https://www.codacy.com/app/fedevitale99/festivities-json?utm_source=github.com&utm_medium=referral&utm_content=Rawnly/festivities.json&utm_campaign=badger)
+
 A `json` file with all main international festivities.
 
 Example:
